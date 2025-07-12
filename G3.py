@@ -24,6 +24,7 @@ def load_haar_cascades():
 
 # Set page title and description
 st.title("Know who's more Beautiful")
+st.title("Compare 2 faces")
 st.write("Upload two face images to see which scores higher.")
 
 # Preload the detectors
