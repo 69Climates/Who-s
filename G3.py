@@ -7,6 +7,12 @@ import tempfile
 import os
 import time
 
+st.set_page_config(
+    page_title="FairFace AI",       # This sets the tab title
+    page_icon="🧠"
+)
+
+
 st.info("📝 Note: This comparison is based only on the image, not real-life appearance.")
 st.warning("⚠️ DISCLAIMER: For image comparison only. Misuse is not allowed.")
 
